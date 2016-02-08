@@ -1,6 +1,6 @@
 <?php
 
-namespace GianArb\Ungry;
+namespace GianArb\Angry;
 
 trait BigBang
 {

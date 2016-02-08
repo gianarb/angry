@@ -1,7 +1,7 @@
 <?php
-namespace GianArb\UngryTest;
+namespace GianArb\AngryTest;
 
-use GianArb\Ungry\Unclonable;
+use GianArb\Angry\Unclonable;
 
 class UnclonableTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,7 +1,7 @@
 <?php
-namespace GianArb\UngryTest;
+namespace GianArb\AngryTest;
 
-use GianArb\Ungry\Uninvokable;
+use GianArb\Angry\Uninvokable;
 
 class UninvokableTest extends \PHPUnit_Framework_TestCase
 {

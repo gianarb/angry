@@ -1,7 +1,7 @@
 <?php
-namespace GianArb\UngryTest;
+namespace GianArb\AngryTest;
 
-use GianArb\Ungry\Unserializable;
+use GianArb\Angry\Unserializable;
 
 class UnserializableTest extends \PHPUnit_Framework_TestCase
 {

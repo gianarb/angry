@@ -1,5 +1,5 @@
 <?php
-namespace GianArb\Ungry;
+namespace GianArb\Angry;
 
 use DomainException;
 
