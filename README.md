@@ -7,7 +7,7 @@ This library is a funny collection of traits to stop each attack your classes.
 ## Install
 
 ```bash
-composer install gianarb\angry
+composer install gianarb/angry
 ```
 
 ## Getting Started
