@@ -1,23 +1,25 @@
-# Angry
-This library is based on true events racounted by @ocramius during your talk
-"Defensive Programming".
+Angry
+=====
 
-This library is a funny collection of traits to stop each attack your classes.
+This library is collection of traits to stop mis-use of your classes.
+Based on @ocramius talk "Defensive Programming".
 
-## Install
+
+Installation
+------------
 
 ```bash
-composer install gianarb/angry
+composer install gianarb/angry "^1.0"
 ```
 
-## Getting Started
-The best way to surving at bugs is stop to write code, but we can try to start
-with a drop of unexpected features.
 
-* Block class' clone use `GianArb\Angry\Unclonable` trait.
-* Block class' invoke use `GianArb\Angry\Uninvoke` trait.
-* Block class' invoke use `GianArb\Angry\Unserializable` trait.
-* Only for ungry developers `GianArb\Angry\BigBang` trait.
+Getting Started
+---------------
+
+* Block `clone` of a class use `GianArb\Angry\Unclonable` trait.
+* Block invoking of a class e.g. `$className();` use `GianArb\Angry\Uninvoke` trait.
+* Block serialization of a class use `GianArb\Angry\Unserializable` trait.
+* Block all of the above `GianArb\Angry\ClassDefence` trait.
 
 Remember, the best way to write code is be lazy!
 [http://blogoscoped.com/archive/2005-08-24-n14.html](http://blogoscoped.com/archive/2005-08-24-n14.html).

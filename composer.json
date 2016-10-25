@@ -1,5 +1,6 @@
 {
-  "name": "gianarb/Angry",
+  "name": "gianarb/angry",
+  "description": "A collection of traits to defend classes from mis-use.",
   "require": {
     "php": "^5.4 || ^7.0"
   },
