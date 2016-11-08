@@ -10,7 +10,7 @@ class UnserializableTest extends PHPUnit_Framework_TestCase
     public function testSerialize()
     {
         $this->setExpectedException('DomainException');
-        $class = $this->getMockForTrait(Unserializable::class);
-        serialize($class);
+        $testClass = $this->getMockForTrait('GianArb\Angry\Unserializable');
+        serialize($testClass);
     }
 }
