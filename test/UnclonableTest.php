@@ -10,7 +10,7 @@ class UnclonableTest extends PHPUnit_Framework_TestCase
     public function testCloneUnclonable()
     {
         $this->setExpectedException('DomainException');
-        $class = $this->getMockForTrait(Unclonable::class);
-        clone $class;
+        $testClass = $this->getMockForTrait('GianArb\Angry\Unclonable');
+        clone $testClass;
     }
 }
