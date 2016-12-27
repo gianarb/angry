@@ -6,6 +6,6 @@ trait ClassDefence
 {
     use Unserializable;
     use Unclonable;
-    use Uninvoke;
+    use Uninvokable;
 }
 
