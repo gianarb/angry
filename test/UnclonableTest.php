@@ -3,13 +3,13 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\Unclonable;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class UnclonableTest extends PHPUnit_Framework_TestCase
+class UnclonableTest extends TestCase
 {
     public function testCloneUnclonable()
     {
-        $this->setExpectedException('DomainException');
+        $this->expectException('DomainException');
         $testClass = $this->getMockForTrait('GianArb\Angry\Unclonable');
         clone $testClass;
     }

@@ -3,13 +3,13 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\Unserializable;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class UnserializableTest extends PHPUnit_Framework_TestCase
+class UnserializableTest extends TestCase
 {
     public function testSerialize()
     {
-        $this->setExpectedException('DomainException');
+        $this->expectException('DomainException');
         $testClass = $this->getMockForTrait('GianArb\Angry\Unserializable');
         serialize($testClass);
     }

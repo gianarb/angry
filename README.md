@@ -1,7 +1,7 @@
 Angry
 =====
 
-[![Build Status](https://travis-ci.org/gianarb/angry.svg?branch=master)](https://travis-ci.org/gianarb/angry)
+[![Build Status](https://travis-ci.com/gianarb/angry.svg?branch=master)](https://travis-ci.com/gianarb/angry)
 
 This library is a collection of traits to stop mis-use of your classes.
 Based on @ocramius talk "Defensive Programming".
