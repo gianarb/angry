@@ -3,7 +3,7 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\Unclonable;
-use \PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class UnclonableTest extends TestCase
 {

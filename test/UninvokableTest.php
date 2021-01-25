@@ -3,7 +3,7 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\Uninvokable;
-use \PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class UninvokableTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\Unserializable;
-use \PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class UnserializableTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\ClassDefence;
-use \PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class ClassDefenceTest extends TestCase
 {
