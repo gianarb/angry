@@ -3,27 +3,27 @@
 namespace GianArb\AngryTest;
 
 use GianArb\Angry\ClassDefence;
-use PHPUnit_Framework_TestCase;
+use \PHPUnit\Framework\TestCase;
 
-class ClassDefenceTest extends PHPUnit_Framework_TestCase
+class ClassDefenceTest extends \PHPUnit\Framework\TestCase
 {
     public function testClone()
     {
-        $this->setExpectedException('DomainException');
+        $this->expectException('DomainException');
         $testClass = $this->getMockForTrait('GianArb\Angry\ClassDefence');
         clone $testClass;
     }
 
     public function testInvoke()
     {
-        $this->setExpectedException('DomainException');
+        $this->expectException('DomainException');
         $testClass = $this->getMockForTrait('GianArb\Angry\ClassDefence');
         $testClass();
     }
 
     public function testSerialize()
     {
-        $this->setExpectedException('DomainException');
+        $this->expectException('DomainException');
         $testClass = $this->getMockForTrait('GianArb\Angry\ClassDefence');
         serialize($testClass);
     }
