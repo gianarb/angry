@@ -5,7 +5,7 @@ namespace GianArb\AngryTest;
 use GianArb\Angry\Unclonable;
 use \PHPUnit\Framework\TestCase;
 
-class UnclonableTest extends \PHPUnit\Framework\TestCase
+class UnclonableTest extends TestCase
 {
     public function testCloneUnclonable()
     {

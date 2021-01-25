@@ -5,7 +5,7 @@ namespace GianArb\AngryTest;
 use GianArb\Angry\ClassDefence;
 use \PHPUnit\Framework\TestCase;
 
-class ClassDefenceTest extends \PHPUnit\Framework\TestCase
+class ClassDefenceTest extends TestCase
 {
     public function testClone()
     {
